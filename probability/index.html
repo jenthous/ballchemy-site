@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ballchemy — Probabilities · 확률 공개</title>
+<link rel="icon" href="/icon.png">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main>
+  <header>
+    <img src="/icon.png" alt="">
+    <div>
+      <h1>확률 공개 · Probabilities</h1>
+      <p class="lang"><a href="#ko">한국어</a> · <a href="#en">English</a></p>
+    </div>
+  </header>
+  <nav><a href="/">Ballchemy</a><a href="/privacy/">Privacy Policy · 개인정보처리방침</a><a href="/support/">Support · 고객 지원</a></nav>
+
+  <section id="ko" lang="ko">
+    <h2>한국어</h2>
+    <p class="date">최종 갱신: 2026년 11월 14일 · 게임 버전 0.39.0</p>
+    <p>볼케미에는 무작위 뽑기가 두 가지 있습니다: <strong>공 뽑기</strong>와 <strong>지원군 뽑기</strong>. 둘 다 금화로 뽑으며, 금화는 플레이로 얻고 상점에서 살 수도 있으므로 유료로 구매할 수 있는 확률형 아이템입니다. 이 페이지는 각 뽑기에서 나올 수 있는 아이템 전부와 그 확률, 그리고 확률이 바뀌는 규칙을 공개합니다. 같은 표가 게임 안 뽑기 화면(확률 칩과 ⓘ 창)에도 있습니다.</p>
+    <h3>공 뽑기 (1회 금화 200)</h3>
+    <p>1회 뽑기는 등급을 확률대로 고른 뒤 그 등급 안의 공을 같은 확률로 하나 고릅니다. 백색 핵은 처음부터 가지고 있어 뽑기에 나오지 않습니다. 공을 모두 모으면 뽑기가 닫힙니다.</p>
+<table><thead><tr><th>등급</th><th>등급 확률</th><th>아이템</th><th>아이템 1개</th></tr></thead><tbody>
+<tr><td>일반</td><td class="n">50%</td><td>호박 핵, 구리 핵, 현무 핵, 주석 핵, 납 핵, 암염 핵, 숯 핵 <span class="c">(7)</span></td><td class="n">7.1429%</td></tr>
+<tr><td>고급</td><td class="n">28%</td><td>청색 뇌핵, 주홍 폭핵, 녹색 탄성핵, 서리 핵, 독액 핵, 무쇠 핵, 은 핵 <span class="c">(7)</span></td><td class="n">4%</td></tr>
+<tr><td>희귀</td><td class="n">14%</td><td>수은 핵, 석류석 핵, 비취 핵, 자수정 핵, 흑요 핵, 진주 핵 <span class="c">(6)</span></td><td class="n">2.3333%</td></tr>
+<tr><td>영웅</td><td class="n">6%</td><td>유황 핵, 뇌정 핵, 산호 핵, 운석 핵, 단백석 핵 <span class="c">(5)</span></td><td class="n">1.2%</td></tr>
+<tr><td>전설</td><td class="n">2%</td><td>현자의 핵, 일식 핵, 혜성 핵, 태양 핵 <span class="c">(4)</span></td><td class="n">0.5%</td></tr>
+</tbody></table>
+    <p class="small">중복된 공은 금화를 돌려줍니다: 일반 20 · 고급 30 · 희귀 40 · 영웅 50 · 전설 60</p>
+    <h4>확률이 바뀌는 규칙(천장)</h4>
+    <ul><li>첫 뽑기와, 중복이 3번 연속된 다음 뽑기는 아직 없는 공이 나옵니다. 아직 없는 공이 남은 등급 중에서 위 비율로(다시 나눠) 등급을 고른 뒤, 그 등급의 없는 공을 같은 확률로 하나 고릅니다.</li><li>영웅·전설 없이 21번째 뽑기는 영웅 또는 전설이 나옵니다(영웅 75%, 전설 25%. 새 공 보장과 겹치면 없는 공 먼저).</li><li>전설 없이 40번째 뽑기는 아직 없는 전설 공이 같은 확률로 하나 나옵니다. 전설 공 4개를 모두 가지면 이 규칙은 멈춥니다.</li><li>고를 공이 남지 않은 등급은 빠지고, 그 확률은 남은 등급이 비율대로 나눕니다.</li></ul>
+    <h3>지원군 뽑기 (1회 금화 150)</h3>
+    <p>1회 뽑기는 등급을 확률대로 고른 뒤 그 등급으로 나올 수 있는 지원군 종류를 같은 확률로 하나 고릅니다. 두 원소 지원군은 영웅·전설로만 나옵니다. 새 종류는 뽑힌 등급으로 들어오고, 가진 종류가 더 높은 등급으로 뽑히면 그 등급으로 오르며, 그 밖에는 조각을 줍니다.</p>
+<table><thead><tr><th>등급</th><th>등급 확률</th><th>아이템</th><th>아이템 1개</th></tr></thead><tbody>
+<tr><td>일반</td><td class="n">50%</td><td>유리막 지원군, 레이저 지원군, 불꽃 지원군, 얼음 지원군, 번개 지원군, 포대 지원군, 독 지원군, 톱날 지원군, 지진 지원군, 수호 지원군, 포탈 지원군 <span class="c">(11)</span></td><td class="n">4.5455%</td></tr>
+<tr><td>고급</td><td class="n">28%</td><td>유리막 지원군, 레이저 지원군, 불꽃 지원군, 얼음 지원군, 번개 지원군, 포대 지원군, 독 지원군, 톱날 지원군, 지진 지원군, 수호 지원군, 포탈 지원군 <span class="c">(11)</span></td><td class="n">2.5455%</td></tr>
+<tr><td>희귀</td><td class="n">15%</td><td>유리막 지원군, 레이저 지원군, 불꽃 지원군, 얼음 지원군, 번개 지원군, 포대 지원군, 독 지원군, 톱날 지원군, 지진 지원군, 수호 지원군, 포탈 지원군 <span class="c">(11)</span></td><td class="n">1.3636%</td></tr>
+<tr><td>영웅</td><td class="n">5.5%</td><td>유리막 지원군, 레이저 지원군, 불꽃 지원군, 얼음 지원군, 번개 지원군, 포대 지원군, 독 지원군, 톱날 지원군, 지진 지원군, 수호 지원군, 플라스마 지원군, 냉기·독 지원군, 포탈 지원군 <span class="c">(13)</span></td><td class="n">0.4231%</td></tr>
+<tr><td>전설</td><td class="n">1.5%</td><td>유리막 지원군, 레이저 지원군, 불꽃 지원군, 얼음 지원군, 번개 지원군, 포대 지원군, 독 지원군, 톱날 지원군, 지진 지원군, 수호 지원군, 플라스마 지원군, 냉기·독 지원군, 포탈 지원군 <span class="c">(13)</span></td><td class="n">0.1154%</td></tr>
+</tbody></table>
+    <p class="small">중복된 지원군(가진 등급 이하)은 조각을 줍니다: 일반 1 · 고급 2 · 희귀 4 · 영웅 8 · 전설 15</p>
+    <h4>확률이 바뀌는 규칙(천장)</h4>
+    <ul><li>첫 지원군 뽑기와, 중복이 3번 연속된 다음 뽑기는 아직 없는 종류가 나옵니다(없는 종류가 남은 동안).</li><li>영웅·전설 없이 31번째 뽑기는 영웅(78.5714%) 또는 전설(21.4286%)이 나옵니다.</li><li>전설 없이 60번째 뽑기는 전설이 나옵니다(종류마다 7.6923%).</li></ul>
+    <p>뽑기 화면에는 각 보장까지 남은 횟수(예: 「40번 안에 전설 확정」)가 늘 보입니다. 횟수는 계정마다, 뽑기 종류마다 따로 셉니다.</p>
+    <p>일부 스토어 지역(벨기에·브라질)에서는 금화를 팔지 않으며, 그 지역에서는 플레이로 얻은 금화로만 뽑습니다.</p>
+    <p>문의: <a href="mailto:hello@goodgag.net">hello@goodgag.net</a></p>
+  </section>
+
+  <section id="en" lang="en">
+    <h2>English</h2>
+    <p class="date">Last updated: November 14, 2026 · game version 0.39.0</p>
+    <p>Ballchemy has two random draws: the <strong>Ball draw</strong> and the <strong>Ally draw</strong>. Both are paid with Gold, which you earn in play and can also buy in the shop, so they are random items that can be bought. This page lists every item each draw can give, with its probability, and the rules that change the probabilities. The same table is shown in the game (the draw screen's odds chips and the ⓘ sheet).</p>
+    <h3>Ball draw (200 Gold per draw)</h3>
+    <p>One draw picks a grade by its probability, then one ball of that grade with equal probability. The White Core is owned from the start and is never drawn. When every ball is collected the draw closes.</p>
+<table><thead><tr><th>Grade</th><th>Grade probability</th><th>Items</th><th>Each item</th></tr></thead><tbody>
+<tr><td>Common</td><td class="n">50%</td><td>Amber Core, Copper Core, Basalt Core, Tin Core, Lead Core, Rock Salt Core, Charcoal Core <span class="c">(7)</span></td><td class="n">7.1429%</td></tr>
+<tr><td>Uncommon</td><td class="n">28%</td><td>Blue Bolt Core, Scarlet Blast Core, Green Spring Core, Hoarfrost Core, Ichor Core, Cast Iron Core, Silver Core <span class="c">(7)</span></td><td class="n">4%</td></tr>
+<tr><td>Rare</td><td class="n">14%</td><td>Quicksilver Core, Garnet Core, Jade Core, Amethyst Core, Obsidian Core, Pearl Core <span class="c">(6)</span></td><td class="n">2.3333%</td></tr>
+<tr><td>Epic</td><td class="n">6%</td><td>Sulfur Core, Thunderstone Core, Coral Core, Meteorite Core, Opal Core <span class="c">(5)</span></td><td class="n">1.2%</td></tr>
+<tr><td>Legendary</td><td class="n">2%</td><td>Sage&#x27;s Core, Eclipse Core, Comet Core, Sun Core <span class="c">(4)</span></td><td class="n">0.5%</td></tr>
+</tbody></table>
+    <p class="small">A duplicate ball refunds Gold: Common 20 · Uncommon 30 · Rare 40 · Epic 50 · Legendary 60</p>
+    <h4>Rules that change the probabilities</h4>
+    <ul><li>The first draw, and the draw after 3 duplicates in a row, gives a ball not owned yet: the grade is picked among the grades that still have a missing ball (by the weights above, rescaled), then one missing ball of it with equal probability.</li><li>The 21th draw in a row without an Epic or Legendary ball gives an Epic or Legendary ball (Epic 75%, Legendary 25%; a missing one first when a new ball is also due).</li><li>The 40th draw in a row without a Legendary ball gives a Legendary ball not owned yet, each with equal probability. Once all 4 Legendary balls are owned this rule stops.</li><li>A grade with no ball left to pick is skipped and the other grades share its probability by their weights.</li></ul>
+    <h3>Ally draw (150 Gold per draw)</h3>
+    <p>One draw picks a grade by its probability, then one ally kind that comes in that grade with equal probability. Two-element allies come only at Epic or Legendary. A new kind joins at the drawn grade; an owned kind drawn at a higher grade rises to it; otherwise the draw gives fragments.</p>
+<table><thead><tr><th>Grade</th><th>Grade probability</th><th>Items</th><th>Each item</th></tr></thead><tbody>
+<tr><td>Common</td><td class="n">50%</td><td>Glass Allies, Laser Allies, Fire Allies, Ice Allies, Lightning Allies, Battery Allies, Venom Allies, Saw Allies, Quake Allies, Guardian Allies, Portal Allies <span class="c">(11)</span></td><td class="n">4.5455%</td></tr>
+<tr><td>Uncommon</td><td class="n">28%</td><td>Glass Allies, Laser Allies, Fire Allies, Ice Allies, Lightning Allies, Battery Allies, Venom Allies, Saw Allies, Quake Allies, Guardian Allies, Portal Allies <span class="c">(11)</span></td><td class="n">2.5455%</td></tr>
+<tr><td>Rare</td><td class="n">15%</td><td>Glass Allies, Laser Allies, Fire Allies, Ice Allies, Lightning Allies, Battery Allies, Venom Allies, Saw Allies, Quake Allies, Guardian Allies, Portal Allies <span class="c">(11)</span></td><td class="n">1.3636%</td></tr>
+<tr><td>Epic</td><td class="n">5.5%</td><td>Glass Allies, Laser Allies, Fire Allies, Ice Allies, Lightning Allies, Battery Allies, Venom Allies, Saw Allies, Quake Allies, Guardian Allies, Plasma Allies, Chill-Venom Allies, Portal Allies <span class="c">(13)</span></td><td class="n">0.4231%</td></tr>
+<tr><td>Legendary</td><td class="n">1.5%</td><td>Glass Allies, Laser Allies, Fire Allies, Ice Allies, Lightning Allies, Battery Allies, Venom Allies, Saw Allies, Quake Allies, Guardian Allies, Plasma Allies, Chill-Venom Allies, Portal Allies <span class="c">(13)</span></td><td class="n">0.1154%</td></tr>
+</tbody></table>
+    <p class="small">A duplicate ally (at or below its grade) gives fragments: Common 1 · Uncommon 2 · Rare 4 · Epic 8 · Legendary 15</p>
+    <h4>Rules that change the probabilities</h4>
+    <ul><li>The first Ally draw, and the draw after 3 duplicates in a row, gives a kind not owned yet (while one is missing).</li><li>The 31th draw in a row without an Epic or Legendary gives Epic (78.5714%) or Legendary (21.4286%).</li><li>The 60th draw in a row without a Legendary gives a Legendary (each kind 7.6923%).</li></ul>
+    <p>The draw screen always shows how many draws are left to each guarantee (for example "Legendary within 40"). The counts are kept per account and per draw.</p>
+    <p>Gold is not sold in some store regions (Belgium, Brazil); there the draws use only Gold earned in play.</p>
+    <p>Questions: <a href="mailto:hello@goodgag.net">hello@goodgag.net</a></p>
+  </section>
+
+  <footer>© SmapIe · Ballchemy</footer>
+</main>
+</body>
+</html>

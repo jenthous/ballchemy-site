@@ -19,3 +19,11 @@ nav a { margin-right: 14px; }
 .lang { font-size: 14px; margin: 4px 0 0; color: #b9a67f; }
 .date { color: #b9a67f; font-size: 14px; }
 footer { margin-top: 48px; font-size: 13px; color: #8f7f60; }
+h4 { color: #e8c98a; font-size: 15px; margin: 16px 0 2px; }
+table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 14px; }
+th, td { border-bottom: 1px solid #3a2c18; padding: 6px 6px; text-align: left; vertical-align: top; }
+th { color: #f3d79a; font-weight: 600; white-space: nowrap; }
+td.n { white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; }
+.c { color: #8f7f60; }
+.small { font-size: 14px; color: #b9a67f; }
+td:first-child, th:first-child { white-space: nowrap; }
